@@ -60,6 +60,10 @@ export default {
   		},
 		backgroundImage: {
 			heroImage: "url(/assets/hero-image.jpg)",
+		},
+		screens: {
+			netflixMd : "600px",
+			netflixLg : "900px"
 		}
   	}
   },

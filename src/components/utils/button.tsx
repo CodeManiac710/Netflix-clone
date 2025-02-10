@@ -1,11 +1,11 @@
 interface NavbarProps {
-    title: string;
+    children: React.ReactNode;
 }
 
-export const Button = ({ title } : NavbarProps) => {
+export const Button = ({ children } : NavbarProps) => {
     return (
-        <button className=" font-medium px-3 py-1 rounded-sm bg-netflixButton text-white hover:bg-netflixButtonHover">
-            { title }
-        </button>
+        <div className=" w-full h-full flex items-center justify-evenly px-3 py-1 rounded-sm bg-netflixButton text-white hover:bg-netflixButtonHover">
+            { children }
+        </div>
     )
 };
