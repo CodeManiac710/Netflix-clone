@@ -18,7 +18,7 @@ export const FaqDropdown = ({ question, children }: faqDropdownProps) => {
             <button onClick={() => {
                 setOpen(!open);
             }} className="w-full hover:bg-[#484444] p-6 flex justify-between">
-                <p>{question}</p>
+                <p className="flex text-start">{question}</p>
                 {
                     !open && <AddIcon />
                 }
