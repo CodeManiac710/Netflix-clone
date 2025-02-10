@@ -1,0 +1,5 @@
+[33m8562e05[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{0}: rebase (abort): returning to refs/heads/main
+[33mc5c20c8[m HEAD@{1}: commit: Home page mobile view completed
+[33mf734a9d[m HEAD@{2}: commit: fixed deployement error - removed the unused font
+[33mc6f4e43[m HEAD@{3}: pull origin main --rebase (start): checkout c6f4e434d46190d5659afb0eb804fc2ffb11d73c
+[33m8562e05[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{4}: commit (initial): nav created
